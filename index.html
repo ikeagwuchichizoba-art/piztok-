@@ -1,0 +1,496 @@
+Build PIZTOK, a fully functional short-video social media platform inspired by the core user experience of TikTok. Do not create only a visual prototype or static demo. Build the frontend, backend, database, authentication, storage, APIs, and user interactions so that the application actually works.
+
+1. USER ACCOUNTS & AUTHENTICATION
+
+Users must be able to:
+
+- Create an account.
+- Log in and log out.
+- Reset/change their password.
+- Edit their profile.
+- Upload/change profile picture.
+- Add a username, display name, bio, website/link and other profile information.
+- Have a unique public profile/page.
+- Follow and unfollow other users.
+- Block and unblock users.
+- Report users/content.
+- Receive notifications.
+
+Each user should have their own account and their own profile page.
+
+2. USER PROFILE/PAGE
+
+Every user gets a customizable PIZTOK profile similar to a modern social-media profile.
+
+Profile should include:
+
+- Profile picture.
+- Username.
+- Display name.
+- Bio.
+- Website/social link.
+- Followers count.
+- Following count.
+- Likes/content statistics.
+- Follow button.
+- Message button where appropriate.
+- User's videos.
+- User's photos/posts.
+- Reposted/shared content where applicable.
+- Story section.
+- Profile settings.
+
+Users should be able to edit their profile whenever they want.
+
+3. PERSONAL, BUSINESS & CREATOR ACCOUNTS
+
+Create account-type settings where users can choose between:
+
+- Personal account.
+- Creator account.
+- Business account.
+
+Users should be able to switch account type from Settings.
+
+Business/Creator accounts should have additional features such as:
+
+- Professional profile information.
+- Contact information.
+- Website/link.
+- Analytics.
+- Content performance statistics.
+- Audience statistics.
+- Post/video performance.
+- Account/category information.
+
+The account type must actually affect the available features and settings rather than simply changing text on the screen.
+
+4. PRIVACY SETTINGS
+
+Create a complete Privacy and Safety section.
+
+Users should be able to:
+
+- Make their account public or private.
+- Control who can follow them.
+- Control who can comment.
+- Control who can message them.
+- Control mentions/tags.
+- Block users.
+- Manage restricted users.
+- Control story visibility.
+- Control whether posts can be downloaded/shared where applicable.
+
+Privacy settings must be connected to the backend and actually enforce the selected settings.
+
+5. HOME / FOR YOU FEED
+
+Create a PIZTOK home feed inspired by short-video social platforms.
+
+Include:
+
+- For You feed.
+- Following feed.
+- Vertical full-screen video experience.
+- Swipe up/down between videos.
+- Like button.
+- Comment button.
+- Share button.
+- Save/favorite button.
+- Follow button.
+- Creator information.
+- Caption.
+- Hashtags.
+- Sound/music information.
+- Video views.
+- Interactive animations.
+
+The feed should retrieve real content from the database rather than hard-coded example videos.
+
+Create a recommendation system that can eventually rank content based on things such as:
+
+- User interests.
+- Watch time.
+- Likes.
+- Comments.
+- Shares.
+- Follows.
+- Saves.
+- Video completion.
+- Recent activity.
+
+Start with a practical algorithm that works on the available data and can be improved later.
+
+6. CREATE / UPLOAD
+
+Create a large + / Create button.
+
+When users tap it, they should be able to:
+
+- Open the device camera.
+- Record video.
+- Take a photo.
+- Upload videos from their device.
+- Upload photos from their device.
+- Select multiple media files where appropriate.
+
+Before publishing, provide an editing screen.
+
+7. VIDEO EDITOR
+
+Build a working basic video editor with:
+
+- Trim video.
+- Cut video.
+- Crop.
+- Rotate.
+- Adjust speed.
+- Add text.
+- Add captions.
+- Add stickers.
+- Add effects.
+- Add filters.
+- Adjust volume.
+- Add music/sound.
+- Select cover/thumbnail.
+- Add hashtags.
+- Add mentions.
+- Add location where supported.
+- Preview the finished content before publishing.
+
+The editing interface should feel modern and simple.
+
+8. CAMERA & FILTERS
+
+The camera screen should support:
+
+- Front/back camera switching.
+- Flash.
+- Timer.
+- Recording.
+- Photo capture.
+- Video recording.
+- Filters.
+- Effects.
+- Beauty/basic enhancement controls where technically supported.
+
+Make the camera and upload experience functional on supported devices.
+
+9. SOUND / MUSIC LIBRARY
+
+Create a PIZTOK sound library.
+
+Users should be able to:
+
+- Browse sounds.
+- Search sounds.
+- View trending sounds.
+- View popular sounds.
+- Select a sound when creating a video.
+- Preview a sound.
+- Add a sound to a video.
+- View the sound used on a published video.
+- Tap a sound to see other videos using it.
+- Save/favorite sounds.
+
+Build the database structure so sounds can be managed by administrators.
+
+For copyrighted music, design the system so that only properly licensed/authorized audio can be made available.
+
+10. STORIES
+
+Add a Stories feature.
+
+Users should be able to:
+
+- Upload photo stories.
+- Upload video stories.
+- Record a story.
+- Add text.
+- Add stickers.
+- Add filters.
+- Add music where available.
+- View who viewed their story.
+- Delete their story.
+- Control story privacy.
+
+Stories should automatically expire after the configured period.
+
+11. POSTS
+
+Users should be able to publish:
+
+- Videos.
+- Photos.
+- Photo carousels.
+- Captions.
+- Hashtags.
+- Mentions.
+- Sounds.
+
+Posts must be stored in the backend and appear automatically on the user's profile and eligible followers' feeds.
+
+Users should be able to:
+
+- Edit captions where appropriate.
+- Delete posts.
+- Hide/archive posts where supported.
+- Control comments.
+- View post statistics.
+
+12. COMMENTS
+
+Build a complete comment system.
+
+Users can:
+
+- Comment.
+- Reply to comments.
+- Like comments.
+- Delete their own comments.
+- Report comments.
+- Block/restrict users.
+
+Creators should have moderation controls.
+
+13. MESSAGES
+
+Build direct messaging.
+
+Users should be able to:
+
+- Send messages.
+- Send text.
+- Share posts/videos.
+- Send images where supported.
+- Receive messages.
+- Delete conversations/messages where appropriate.
+- Block users.
+- Report conversations.
+
+Use real backend data and real-time updates where possible.
+
+14. NOTIFICATIONS
+
+Create notifications for events such as:
+
+- New followers.
+- Likes.
+- Comments.
+- Replies.
+- Mentions.
+- Messages.
+- Story interactions.
+- Other important account activity.
+
+Notifications should be generated automatically by backend events.
+
+15. SEARCH
+
+Create a global search system.
+
+Users can search for:
+
+- Users.
+- Videos.
+- Hashtags.
+- Sounds.
+
+Include recent searches and trending searches where appropriate.
+
+16. DISCOVER / TRENDING
+
+Create a Discover/Explore section containing:
+
+- Trending videos.
+- Trending hashtags.
+- Popular creators.
+- Trending sounds.
+- Recommended creators.
+- Recommended content.
+
+All of this should use real database information.
+
+17. SAVED / FAVORITES
+
+Users should be able to save:
+
+- Videos.
+- Posts.
+- Sounds.
+
+Create a private Saved/Favorites section in their account.
+
+18. CREATOR ANALYTICS
+
+Creator and Business accounts should have analytics showing information such as:
+
+- Views.
+- Likes.
+- Comments.
+- Shares.
+- Followers gained.
+- Audience engagement.
+- Video performance.
+- Post performance.
+
+Use real database statistics.
+
+19. ADMIN BACKEND
+
+Create a secure administrator dashboard.
+
+Admins should be able to:
+
+- Manage users.
+- View user accounts.
+- Suspend/ban accounts.
+- Review reports.
+- Remove violating content.
+- Manage sounds.
+- Manage categories.
+- Manage hashtags.
+- Manage featured/trending content.
+- View platform statistics.
+- Manage moderation settings.
+
+Admin functionality must be protected with proper authorization and must never be accessible to ordinary users.
+
+20. DATABASE & BACKEND
+
+Create a proper backend database with relationships for:
+
+- Users.
+- Profiles.
+- Account types.
+- Privacy settings.
+- Followers/following.
+- Videos.
+- Photos.
+- Posts.
+- Stories.
+- Comments.
+- Replies.
+- Likes.
+- Shares.
+- Saves.
+- Sounds.
+- Hashtags.
+- Notifications.
+- Messages.
+- Reports.
+- Blocks.
+- Analytics.
+- Admin accounts.
+
+Do not store important application data only in frontend/local state.
+
+Use secure authentication and authorization.
+
+Users must only be able to modify data they are authorized to modify.
+
+21. MEDIA STORAGE
+
+Use proper media storage for:
+
+- Profile pictures.
+- Videos.
+- Photos.
+- Story media.
+- Sound files.
+
+Do not rely on temporary browser storage for permanent user content.
+
+Add appropriate upload validation, file-size limits, media-type validation and error handling.
+
+22. RESPONSIVE DESIGN
+
+PIZTOK must work properly on:
+
+- Android phones.
+- iPhones.
+- Tablets.
+- Desktop browsers.
+
+The mobile experience should be the highest priority because PIZTOK is primarily a mobile social-media platform.
+
+Use smooth animations and modern UI while keeping performance fast.
+
+23. BOTTOM NAVIGATION
+
+Create a navigation system similar in simplicity to modern short-video apps:
+
+- Home.
+- Discover/Search.
+- Create (+).
+- Inbox/Notifications.
+- Profile.
+
+Make every navigation item functional.
+
+24. SECURITY
+
+Implement:
+
+- Secure authentication.
+- Password protection.
+- Authorization.
+- Protected API routes.
+- Input validation.
+- Upload validation.
+- Rate limiting where appropriate.
+- Secure database access.
+- Protection against unauthorized account access.
+- Proper session management.
+
+Never expose secret keys or administrator credentials in frontend code.
+
+25. ERROR HANDLING
+
+Every important action should have:
+
+- Loading state.
+- Success state.
+- Error state.
+- Empty state.
+- Retry option where appropriate.
+
+Do not allow buttons to appear functional while doing nothing.
+
+26. REAL-TIME FUNCTIONALITY
+
+Where technically appropriate, support real-time updates for:
+
+- Messages.
+- Notifications.
+- Likes.
+- Comments.
+- Follow activity.
+
+27. PIZTOK BRANDING
+
+Use the name PIZTOK throughout the application.
+
+Create a unique PIZTOK visual identity. Do not copy TikTok's logo, trademarks, proprietary assets, or exact copyrighted interface. Build an original design with a similar short-video/social-media experience.
+
+The goal is:
+
+PIZTOK = a complete short-video social platform with its own identity.
+
+28. IMPORTANT DEVELOPMENT REQUIREMENT
+
+Do NOT build this as a fake demonstration.
+
+Every major button and feature should be connected to the appropriate frontend logic, backend API, database and storage.
+
+If a feature cannot be fully implemented immediately, create the correct backend structure and clearly mark what requires an external service rather than pretending that the feature works.
+
+Test the complete user flow:
+
+Create account → Create profile → Change settings → Upload profile picture → Follow users → Record/upload video → Edit video → Select sound → Publish → Video enters feed → Other users watch → Like → Comment → Share → Follow creator → Notification appears → Creator sees analytics.
+
+Also test:
+
+Private account → Follow request → Owner approves → Follower gets access according to privacy settings.
+
+The final result should feel like a real production-ready social-media application, not a static website mockup.
